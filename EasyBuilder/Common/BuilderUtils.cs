@@ -376,7 +376,7 @@ namespace BonGames.EasyBuilder
                 return string.Empty;
             }
             string outputFileName = BuilderUtils.GetOutputArchiveName(buildTarget, env, version);
-            return $"{outputFileName}{extension}";
+            return $"{outputFileName}{extension}".ToLower().Replace(" ", "-");
         }
 
         public static string GetBuildLocation(EAppTarget appTarget, BuildTarget buildTarget, EEnvironment env, BuildVersion version)

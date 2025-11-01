@@ -160,7 +160,7 @@ namespace BonGames.EasyBuilder
             {
                 BuildTargetGroup buildGroup = BuilderUtils.GetBuildTargetGroup(BuildTarget);
                 PlayerSettings.SetApplicationIdentifier(buildGroup, bundleId);
-                EasyBuilder.LogE($"Set BundleId: {bundleId} for BuildTarget: {BuildTarget} BuildGroup: {buildGroup}");
+                EasyBuilder.LogI($"Set BundleId: {bundleId} for BuildTarget: {BuildTarget} BuildGroup: {buildGroup}");
             }
         }
 
