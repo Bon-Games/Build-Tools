@@ -1,7 +1,10 @@
 {
     "name": "BonGames.Shared",
     "rootNamespace": "BonGames.Shared",
-    "references": [],
+    "references": [
+        "GUID:760a4c7888534400e882b82c5b3fba06",
+        "GUID:f2cffbbafa7154e19914457a548a6cc1"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
